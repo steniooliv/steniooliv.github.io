@@ -11,16 +11,13 @@ body{
 }
 
 .imagelogo {
-    float: left;
-    width: 25%;
-    height: 25%;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-bottom: 10%;
-    margin-right: 20%;
+    float: top;
+    width: 50%;
+    height: 50%;
+    position: relative;
     opacity:.3;
     display: block;
+    margin-left: 20%
 }
 
 h1,
@@ -86,7 +83,7 @@ video{
 
 .masthead .masthead-content h1{
     font-size:2.5rem;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .masthead .masthead-content p{
