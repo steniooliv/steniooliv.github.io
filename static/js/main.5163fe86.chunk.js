@@ -1,0 +1,2 @@
+(this["webpackJsonpsteniooliv.github.io"]=this["webpackJsonpsteniooliv.github.io"]||[]).push([[0],{10:function(t,e,n){},11:function(t,e,n){"use strict";n.r(e);var i=n(0),c=n(1),o=n.n(c),r=n(3),s=n.n(r);n(9),n(10);function u(){return Object(i.jsx)("div",{className:"wrapper",children:Object(i.jsx)("p",{children:"steniooliv"})})}var j=function(){return Object(i.jsx)(u,{})};s.a.render(Object(i.jsx)(o.a.StrictMode,{children:Object(i.jsx)(j,{})}),document.getElementById("root"))},9:function(t,e,n){}},[[11,1,2]]]);
+//# sourceMappingURL=main.5163fe86.chunk.js.map
