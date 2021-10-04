@@ -1,0 +1,67 @@
+.header {
+  max-width: 1440px;
+  min-width: 500px;
+  min-height: 30vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header img {
+  height: 15rem;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about p {
+  max-width: 600px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+}
+.contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact div + div {
+  margin-left: 2rem;
+}
+.contact h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem
+}
+
+.contact img {
+  width: 3rem;
+  margin: 1rem 1rem;
+}
+
+.contact span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer {
+margin-top: auto;
+}
+
+.footer img{
+  width: 2rem;
+}
