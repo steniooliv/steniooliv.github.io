@@ -2,9 +2,6 @@ import Head from 'next/head';
 
 import style from '../styles/home.module.scss';
 
-import Home2 from './home2/home2';
-
-
 export default function Home() {
   return (
     <body>
