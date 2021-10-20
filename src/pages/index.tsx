@@ -1,20 +1,22 @@
 import Head from 'next/head';
 
-import style from '../styles/home.module.scss';
+import styles from '../styles/home.module.scss';
 
 export default function Home() {
   return (
-    <body>
-      <Head>
-        <title>Stenio Oliveira</title>
-      </Head>
-      <header className={style.header}>
-        <img src="/assets/steniooliv_profile.png" alt="Stenio Oliveira" />
+    <>
+    <Head>
+      <title>Stênio Oliveira</title>
+    </Head>
+    
+    <main className={styles.container}>
+      <header className={styles.header}>
+          <img src="/assets/steniooliv_profile.png" alt="Stenio Oliveira" />
       </header>
-      <main className={style.about}>
+      <article className={styles.about}>
         <h1>Stenio Oliveira</h1>
         <p>IT manager for fifteen years, web developer with knowledge in React and Next.js technologies, mobile developer with insights in Flutter, I live in Brazil working at Raro Labs as a Flutter Developer.</p>
-        <div className={style.contact}>
+        <div className={styles.contact}>
           <h1>Contact me at</h1>
           <div>
             <div>
@@ -35,12 +37,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </main>
-      <footer className={style.footer}>
+      </article>
+
+      <footer className={styles.footer}>
         <img src="/assets/steniooliv.svg" alt="steniooliv" />
       </footer>
-    </body>
-  )
+    </main>
+    </>
+  );
 }
-
-
