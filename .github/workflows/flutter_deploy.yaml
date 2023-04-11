@@ -31,7 +31,7 @@ jobs:
           git config --global user.email steniooliv@gmail.com
           git config --global user.name "Stenio Oliveira"
           git status
-          git remote add origin https://${{secrets.TOKEN_DEPLOY}}@github.com/steniooliv/steniooliv.github.io.git
+          git remote add origin https://${{secrets.token}}@github.com/steniooliv/steniooliv.github.io.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
