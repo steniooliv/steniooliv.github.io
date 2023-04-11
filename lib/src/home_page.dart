@@ -19,8 +19,7 @@ class HomePage extends StatelessWidget {
             child: SvgPicture.asset(
               "assets/images/svg/background.svg",
               fit: BoxFit.fill,
-              width: size.width,
-              height: size.height,
+              allowDrawingOutsideViewBox: true,
             ),
           ),
           Align(
