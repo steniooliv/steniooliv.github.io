@@ -1,0 +1,7 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "steniooliv",
+    "package_name": "com.steniooliv.deeplink_test",
+  }
+}]
