@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rive/rive.dart';
+import 'package:rive/rive.dart' hide Image;
 import 'package:steniooliv/src/services/url_launcher.dart';
 import 'package:steniooliv/src/shared/widgets/label_button_widget.dart';
 import 'package:steniooliv/src/tokens/tokens_text_styles.dart';
